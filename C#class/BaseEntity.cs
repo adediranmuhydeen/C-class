@@ -8,6 +8,9 @@
         public string MiddleName { get; set; }
         public string Title { get; set; }
 
+        /// <summary>
+        /// print name of entity
+        /// </summary>
         public abstract void SayMyName();
     }
 }

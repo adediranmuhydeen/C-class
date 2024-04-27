@@ -11,7 +11,7 @@ namespace C_class
         
         public string Address { get; set; }
         public bool IsParentOrGuidian { get; set; }
-
+        
         public override void SayMyName()
         {
             Console.WriteLine($"{FirstName}, {LastName}");
