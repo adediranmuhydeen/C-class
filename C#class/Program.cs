@@ -37,3 +37,14 @@ var y = 8 / 5;
 var z = 8 * 5;
 
 Console.WriteLine($"Modulation give {x} while division gives {y} and multiplication gives {z}");
+
+Console.WriteLine((5)^8);
+
+
+int w = 8;
+
+w = w - 1;
+Console.WriteLine(w);
+w = w + 2;
+
+w += 1; //line 44 and 50 are the same
